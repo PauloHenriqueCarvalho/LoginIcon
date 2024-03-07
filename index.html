@@ -11,9 +11,11 @@
 
 <body>
     <div class="container" id="container">
+
+
         <div class="form-container sign-up">
             <form>
-                <h1>Criar Conta</h1>
+                <h1>Login</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
@@ -21,44 +23,19 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>use seu email para entrar</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>cadastrar</button>
+                <input id="usuario" type="text" placeholder="Nome">
+                <input id="senha" type="password" placeholder="Senha">
+                <button onclick="verificacao()">logar</button>
             </form>
         </div>
-        <div class="form-container sign-in">
-            <form>
-                <h1>Logar</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>Use seu email e senha</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="#">Nao tem conta?</a>
-                <button>Login</button>
-            </form>
+        
+        <div class="container-right">
+            <span><i class="fa-solid fa-right-to-bracket"></i></span>
         </div>
-        <div class="toggle-container">
-            <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Bem Vindo!</h1>
-                    <p>entre com sua conta</p>
-                    <button class="hidden" id="login">Sign In</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Ola!</h1>
-                    <p>registre se com sua conta</p>
-                    <button class="hidden" id="register">Registro</button>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
 </body>
     <script src="./js/script.js"></script>
 </html>
+

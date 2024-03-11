@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/header.css">
     <script src="https://kit.fontawesome.com/0ba8cb147b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Inicial</title>
 </head>
 
@@ -23,7 +26,7 @@
             <div class="busca">
                 <input id="usuario" type="text" placeholder="Pesquisa">
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                
+
             </div>
             <div class="icon">
                 <ul class="menu">
@@ -31,10 +34,10 @@
                         <ul>
                             <li><a href="#">Meu Perfil</a></li>
                             <li><label>
-                                <span>Dark Mode</span>
-                                <input type="checkbox" id="switch"/>
-                                <span></span>
-                            </label></li>
+                                    <span>Dark Mode</span>
+                                    <input type="checkbox" id="switch" />
+                                    <span></span>
+                                </label></li>
                             <li><a href="../index.html">Sair</a></li>
 
                         </ul>
@@ -51,7 +54,7 @@
                     <ul class="menu">
                         <li><a href="#">Home</i></a></li>
                         <li><a href="#">Livros</i></a></li>
-                        
+
                         <li><a href="#">Categorias</i></a>
                             <ul>
                                 <li><a href="#">Acessórios</a></li>
@@ -63,7 +66,7 @@
                                 <li><a href="#">Romance</a></li>
                                 <li><a href="#">Comédia</a></li>
                                 <li><a href="#">Religião e Espiritualidade
-                                </a></li>
+                                    </a></li>
                                 <li><a href="#">Biografias</a></li>
 
                             </ul>
@@ -73,8 +76,169 @@
                 </nav>
             </div>
         </div>
-
+        
     </header>
+    <main>
+        <hr>
+        <div class="carrossel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/LC_Banner-Dsk_M1DM.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/LC_Banner_Dsk_BDMN.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/LC_Banner_Dsk_Editora-Todo-Livro.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="topicos">
+            <h2>Mais Vendidos!</h2>
+        </div>
+        <hr>
+
+        <div class="cards">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="../assets/romance.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Livro A Hipotese do Amor</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top"
+                                src="../assets/um_romance_nada_inesperado_457_1_feb5d7b8f3300488e97cf3282bd33110.webp"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Título do card</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="../assets/ac225655785e8a6c9dad40e6f3628496.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Trono de Fogo</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <h2>Romance</h2>
+        <div class="cards">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="../assets/romance.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Livro A Hipotese do Amor</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top"
+                                src="../assets/um_romance_nada_inesperado_457_1_feb5d7b8f3300488e97cf3282bd33110.webp"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Um Romance nada inesperado</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="../assets/71bbpGX9PVL._SY522_.jpg"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Fazer amigos e influenciar pessoas</h5>
+                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                                    preencher o
+                                    conteúdo do card.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
 </body>
-    <script src="../js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
 </html>

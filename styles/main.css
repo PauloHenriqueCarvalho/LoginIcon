@@ -1,0 +1,25 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.cards{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.carrossel{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
